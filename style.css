@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e7ff; 
+    width: 300px; 
+    padding: 30px; 
+}
+
+.calculator {
+    background: linear-gradient(135deg, #ffffff, #d4d2e8); 
+    padding: 30px;
+    border-radius: 30px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #4a4a4a; 
+    text-align: center; 
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    font-size: 16px;
+}
+
+
+button {
+    background: linear-gradient(145deg, #4CAF50, #3E8E41); 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(145deg, #3E8E41, #4CAF50); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-3px); 
+}
+
+button:active {
+    background: #45a049;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    transform: translateY(2px);
+}
+button:hover {
+    background-color: #45a049; 
+}
+
+h3 {
+    margin-top: 20px;
+    color: #4a4a4a; 
+}

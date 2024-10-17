@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор систем счисления</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Калькулятор систем счисления</h1>
+        <label for="inputNumber">Введите число:</label>
+        <input type="text" id="inputNumber" placeholder="Введите число" required>
+        
+        <label for="fromBase">Из системы счисления:</label>
+        <select id="fromBase"></select>
+        
+        <label for="toBase">В систему счисления:</label>
+        <select id="toBase"></select>
+        
+        <button id="convertBtn">Перевести</button>
+        
+        <h3>Результат:</h3>
+        <input type="text" id="result" readonly>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
